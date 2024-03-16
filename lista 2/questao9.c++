@@ -13,7 +13,7 @@ int main (){
 
     cout << "qual ordem voce quer eles? 'c' crescente e 'd' decrescente";
     cin >> ordem;
-//8 10 3
+
     if (ordem == 'c'){
         if(num1>num3){
             vazio = num1;
@@ -35,11 +35,11 @@ int main (){
             vazio = num1;
             num1 = num2;
             num2 = vazio;
-        }else if (num3 < num1){
+        }if (num3 < num1){
             vazio = num1;
             num1 = num3;
             num3 = vazio;
-        }else if (num3 < num2){
+        }if (num3 < num2){
             vazio = num2;
             num2 = num3;
             num3 = vazio;
